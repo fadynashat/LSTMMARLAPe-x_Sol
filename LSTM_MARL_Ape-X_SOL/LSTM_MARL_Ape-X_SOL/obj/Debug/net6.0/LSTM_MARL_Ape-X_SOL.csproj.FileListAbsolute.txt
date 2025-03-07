@@ -1,0 +1,14 @@
+C:\Users\DELL\source\repos\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\bin\Debug\net6.0\LSTM_MARL_Ape-X_SOL.exe
+C:\Users\DELL\source\repos\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\bin\Debug\net6.0\LSTM_MARL_Ape-X_SOL.deps.json
+C:\Users\DELL\source\repos\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\bin\Debug\net6.0\LSTM_MARL_Ape-X_SOL.runtimeconfig.json
+C:\Users\DELL\source\repos\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\bin\Debug\net6.0\LSTM_MARL_Ape-X_SOL.dll
+C:\Users\DELL\source\repos\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\bin\Debug\net6.0\LSTM_MARL_Ape-X_SOL.pdb
+C:\Users\DELL\source\repos\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\obj\Debug\net6.0\LSTM_MARL_Ape-X_SOL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\obj\Debug\net6.0\LSTM_MARL_Ape-X_SOL.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\obj\Debug\net6.0\LSTM_MARL_Ape-X_SOL.AssemblyInfo.cs
+C:\Users\DELL\source\repos\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\obj\Debug\net6.0\LSTM_MARL_Ape-X_SOL.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\obj\Debug\net6.0\LSTM_MARL_Ape-X_SOL.dll
+C:\Users\DELL\source\repos\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\obj\Debug\net6.0\refint\LSTM_MARL_Ape-X_SOL.dll
+C:\Users\DELL\source\repos\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\obj\Debug\net6.0\LSTM_MARL_Ape-X_SOL.pdb
+C:\Users\DELL\source\repos\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\obj\Debug\net6.0\LSTM_MARL_Ape-X_SOL.genruntimeconfig.cache
+C:\Users\DELL\source\repos\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\obj\Debug\net6.0\ref\LSTM_MARL_Ape-X_SOL.dll
