@@ -1,95 +1,21 @@
-Log started at: 3/8/2025 10:43:59 AM
-Output folder: C:\Users\DELL\Downloads\Master\data\LSTMMARLAPe-x_Sol\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\bin\Debug\net6.0\Output
-Preprocessed data saved to: C:\Users\DELL\Downloads\Master\data\LSTMMARLAPe-x_Sol\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\bin\Debug\net6.0\Output\preprocessed_data.csv
-Trained model saved to: C:\Users\DELL\Downloads\Master\data\LSTMMARLAPe-x_Sol\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\bin\Debug\net6.0\Output\trained_model.zip
-
---- Episode 1 ---
-Predicted Response Time: 0.5098870396614075 ms
-Predicted Workload: 0.4977912834156862%
-CPU resource allocated successfully.
-Memory resource allocated successfully.
-Disk I/O resource allocated successfully.
-Network I/O resource allocated successfully.
-Scaling down resources...
-
---- Episode 2 ---
-Predicted Response Time: 0.5168944001197815 ms
-Predicted Workload: 1.0627340583071407%
-CPU resource allocated successfully.
-Memory resource allocated successfully.
-Disk I/O resource allocated successfully.
-Network I/O resource allocated successfully.
-Scaling down resources...
-
---- Episode 3 ---
-Predicted Response Time: 0.5169764161109924 ms
-Predicted Workload: 0.9720144449626902%
-CPU resource allocated successfully.
-Memory resource allocated successfully.
-Disk I/O resource allocated successfully.
-Network I/O resource allocated successfully.
-Scaling down resources...
-
---- Episode 4 ---
-Predicted Response Time: 0.5020232796669006 ms
-Predicted Workload: 1.4538526523232267%
-CPU resource allocated successfully.
-Memory resource allocated successfully.
-Disk I/O resource allocated successfully.
-Network I/O resource allocated successfully.
-Scaling down resources...
-
---- Episode 5 ---
-Predicted Response Time: 0.5225021243095398 ms
-Predicted Workload: 1.394982347931011%
-CPU resource allocated successfully.
-Memory resource allocated successfully.
-Disk I/O resource allocated successfully.
-Network I/O resource allocated successfully.
-Scaling down resources...
-
---- Episode 6 ---
-Predicted Response Time: 0.5161725282669067 ms
-Predicted Workload: 1.5291688453441539%
-CPU resource allocated successfully.
-Memory resource allocated successfully.
-Disk I/O resource allocated successfully.
-Network I/O resource allocated successfully.
-Scaling down resources...
-
---- Episode 7 ---
-Predicted Response Time: 0.5454636812210083 ms
-Predicted Workload: 1.9578274084238532%
-CPU resource allocated successfully.
-Memory resource allocated successfully.
-Disk I/O resource allocated successfully.
-Network I/O resource allocated successfully.
-Scaling down resources...
-
---- Episode 8 ---
-Predicted Response Time: 0.5073184370994568 ms
-Predicted Workload: 1.6912778209070558%
-CPU resource allocated successfully.
-Memory resource allocated successfully.
-Disk I/O resource allocated successfully.
-Network I/O resource allocated successfully.
-Scaling down resources...
-
---- Episode 9 ---
-Predicted Response Time: 0.5149707794189453 ms
-Predicted Workload: 1.8964293312338445%
-CPU resource allocated successfully.
-Memory resource allocated successfully.
-Disk I/O resource allocated successfully.
-Network I/O resource allocated successfully.
-Scaling down resources...
-
---- Episode 10 ---
-Predicted Response Time: 0.4983173906803131 ms
-Predicted Workload: 2.0554929627275382%
-CPU resource allocated successfully.
-Memory resource allocated successfully.
-Disk I/O resource allocated successfully.
-Network I/O resource allocated successfully.
-Scaling down resources...
-Log ended at: 3/8/2025 10:44:09 AM
+Log Started
+2025-03-08 13:03:32 - Program started.
+2025-03-08 13:03:32 - MLContext initialized.
+2025-03-08 13:03:32 - ResourceAllocator and LSTM initialized.
+2025-03-08 13:03:32 - Loading data from C:\Users\DELL\Downloads\Master\data\LSTMMARLAPe-x_Sol\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\bin\Debug\net6.0\Output\synthetic_cloud_dataset.csv...
+2025-03-08 13:03:32 - Loaded 100 records.
+2025-03-08 13:03:32 - Handling missing values...
+2025-03-08 13:03:32 - Missing values handled.
+2025-03-08 13:03:32 - Normalizing data...
+2025-03-08 13:03:32 - Data normalization complete.
+2025-03-08 13:03:32 - Preparing data for LSTM training...
+2025-03-08 13:03:32 - Data prepared for LSTM training.
+2025-03-08 13:03:32 - Training LSTM model...
+2025-03-08 13:03:32 - LSTM training completed.
+2025-03-08 13:03:32 - Initializing MultiAgentSystem...
+2025-03-08 13:03:32 - MultiAgentSystem initialized.
+2025-03-08 13:03:32 - Starting MARL training loop with window size 10...
+2025-03-08 13:03:32 - Processed 0 records...
+2025-03-08 13:03:32 - Printing final resource status...
+2025-03-08 13:03:32 - MARL training complete!
+2025-03-08 13:03:32 - Program execution finished.
