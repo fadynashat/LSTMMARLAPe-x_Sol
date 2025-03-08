@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\DELL\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.ml\4.0.2\build\netstandard2.0\Microsoft.ML.props" Condition="Exists('$(NuGetPackageRoot)microsoft.ml\4.0.2\build\netstandard2.0\Microsoft.ML.props')" />
+  </ImportGroup>
 </Project>

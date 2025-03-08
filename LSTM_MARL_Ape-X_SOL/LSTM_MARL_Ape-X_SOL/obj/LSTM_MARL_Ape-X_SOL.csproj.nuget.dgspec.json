@@ -53,6 +53,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

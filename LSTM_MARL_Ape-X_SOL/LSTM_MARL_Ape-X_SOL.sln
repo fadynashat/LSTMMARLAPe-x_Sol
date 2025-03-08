@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSTM_MARL_Ape-X_SOL", "LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL.csproj", "{D5CAFFCD-2DD6-4884-A06C-480130035E6F}"
 EndProject
