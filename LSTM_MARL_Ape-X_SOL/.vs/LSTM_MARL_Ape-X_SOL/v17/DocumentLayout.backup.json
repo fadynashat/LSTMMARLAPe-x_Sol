@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D5CAFFCD-2DD6-4884-A06C-480130035E6F}|LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL.csproj|c:\\users\\dell\\downloads\\master\\data\\lstmmarlape-x_sol\\lstm_marl_ape-x_sol\\lstm_marl_ape-x_sol\\multiagentsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CAFFCD-2DD6-4884-A06C-480130035E6F}|LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL.csproj|solutionrelative:lstm_marl_ape-x_sol\\multiagentsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CAFFCD-2DD6-4884-A06C-480130035E6F}|LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL.csproj|c:\\users\\dell\\downloads\\master\\data\\lstmmarlape-x_sol\\lstm_marl_ape-x_sol\\lstm_marl_ape-x_sol\\replaybuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CAFFCD-2DD6-4884-A06C-480130035E6F}|LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL.csproj|solutionrelative:lstm_marl_ape-x_sol\\replaybuffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5CAFFCD-2DD6-4884-A06C-480130035E6F}|LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL.csproj|c:\\users\\dell\\downloads\\master\\data\\lstmmarlape-x_sol\\lstm_marl_ape-x_sol\\lstm_marl_ape-x_sol\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5CAFFCD-2DD6-4884-A06C-480130035E6F}|LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL.csproj|solutionrelative:lstm_marl_ape-x_sol\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5CAFFCD-2DD6-4884-A06C-480130035E6F}|LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL.csproj|c:\\users\\dell\\downloads\\master\\data\\lstmmarlape-x_sol\\lstm_marl_ape-x_sol\\lstm_marl_ape-x_sol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5CAFFCD-2DD6-4884-A06C-480130035E6F}|LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL.csproj|solutionrelative:lstm_marl_ape-x_sol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -54,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 320,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "DataPreprocessor.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\DataPreprocessor.cs",
               "RelativeDocumentMoniker": "LSTM_MARL_Ape-X_SOL\\DataPreprocessor.cs",
@@ -67,12 +79,50 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T10:44:37.51Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ReplayBuffer.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\ReplayBuffer.cs",
+              "RelativeDocumentMoniker": "LSTM_MARL_Ape-X_SOL\\ReplayBuffer.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\ReplayBuffer.cs",
+              "RelativeToolTip": "LSTM_MARL_Ape-X_SOL\\ReplayBuffer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T11:29:21.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\Logger.cs",
+              "RelativeDocumentMoniker": "LSTM_MARL_Ape-X_SOL\\Logger.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\Logger.cs",
+              "RelativeToolTip": "LSTM_MARL_Ape-X_SOL\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T11:27:15.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MultiAgentSystem.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\MultiAgentSystem.cs",
+              "RelativeDocumentMoniker": "LSTM_MARL_Ape-X_SOL\\MultiAgentSystem.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\MultiAgentSystem.cs*",
+              "RelativeToolTip": "LSTM_MARL_Ape-X_SOL\\MultiAgentSystem.cs*",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T11:05:06.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MARLAgent.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\MARLAgent.cs",
               "RelativeDocumentMoniker": "LSTM_MARL_Ape-X_SOL\\MARLAgent.cs",
@@ -80,12 +130,11 @@
               "RelativeToolTip": "LSTM_MARL_Ape-X_SOL\\MARLAgent.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAQwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T11:00:31.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T11:00:31.935Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "APeXReplayBuffer.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\APeXReplayBuffer.cs",
               "RelativeDocumentMoniker": "LSTM_MARL_Ape-X_SOL\\APeXReplayBuffer.cs",
@@ -93,12 +142,11 @@
               "RelativeToolTip": "LSTM_MARL_Ape-X_SOL\\APeXReplayBuffer.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAQwE4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T10:57:58.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T10:57:58.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "DeepQLearningAgent.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\DeepQLearningAgent.cs",
               "RelativeDocumentMoniker": "LSTM_MARL_Ape-X_SOL\\DeepQLearningAgent.cs",
@@ -106,25 +154,24 @@
               "RelativeToolTip": "LSTM_MARL_Ape-X_SOL\\DeepQLearningAgent.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAQwC8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T10:56:25.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T10:56:25.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\Program.cs",
               "RelativeDocumentMoniker": "LSTM_MARL_Ape-X_SOL\\Program.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\Program.cs",
-              "RelativeToolTip": "LSTM_MARL_Ape-X_SOL\\Program.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAQwHAAAAAwAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\Program.cs*",
+              "RelativeToolTip": "LSTM_MARL_Ape-X_SOL\\Program.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA1wBkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T08:21:40.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "DataPoint.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\DataPoint.cs",
               "RelativeDocumentMoniker": "LSTM_MARL_Ape-X_SOL\\DataPoint.cs",
@@ -132,12 +179,11 @@
               "RelativeToolTip": "LSTM_MARL_Ape-X_SOL\\DataPoint.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T10:50:36.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T10:50:36.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ModelInput.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\ModelInput.cs",
               "RelativeDocumentMoniker": "LSTM_MARL_Ape-X_SOL\\ModelInput.cs",
@@ -145,12 +191,11 @@
               "RelativeToolTip": "LSTM_MARL_Ape-X_SOL\\ModelInput.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T10:50:28.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T10:50:28.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ResourceAllocator.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\ResourceAllocator.cs",
               "RelativeDocumentMoniker": "LSTM_MARL_Ape-X_SOL\\ResourceAllocator.cs",
@@ -158,12 +203,11 @@
               "RelativeToolTip": "LSTM_MARL_Ape-X_SOL\\ResourceAllocator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T10:51:36.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T10:51:36.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ResourceRequest.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\ResourceRequest.cs",
               "RelativeDocumentMoniker": "LSTM_MARL_Ape-X_SOL\\ResourceRequest.cs",
@@ -171,12 +215,11 @@
               "RelativeToolTip": "LSTM_MARL_Ape-X_SOL\\ResourceRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T10:48:50.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T10:48:50.4Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ModelOutput.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\ModelOutput.cs",
               "RelativeDocumentMoniker": "LSTM_MARL_Ape-X_SOL\\ModelOutput.cs",
@@ -184,12 +227,11 @@
               "RelativeToolTip": "LSTM_MARL_Ape-X_SOL\\ModelOutput.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T10:50:25.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T10:50:25.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ModelTrainer.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Master\\data\\LSTMMARLAPe-x_Sol\\LSTM_MARL_Ape-X_SOL\\LSTM_MARL_Ape-X_SOL\\ModelTrainer.cs",
               "RelativeDocumentMoniker": "LSTM_MARL_Ape-X_SOL\\ModelTrainer.cs",
@@ -197,8 +239,7 @@
               "RelativeToolTip": "LSTM_MARL_Ape-X_SOL\\ModelTrainer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T10:50:21.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T10:50:21.574Z"
             }
           ]
         }

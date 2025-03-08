@@ -1,21 +1,742 @@
 Log Started
-2025-03-08 13:03:32 - Program started.
-2025-03-08 13:03:32 - MLContext initialized.
-2025-03-08 13:03:32 - ResourceAllocator and LSTM initialized.
-2025-03-08 13:03:32 - Loading data from C:\Users\DELL\Downloads\Master\data\LSTMMARLAPe-x_Sol\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\bin\Debug\net6.0\Output\synthetic_cloud_dataset.csv...
-2025-03-08 13:03:32 - Loaded 100 records.
-2025-03-08 13:03:32 - Handling missing values...
-2025-03-08 13:03:32 - Missing values handled.
-2025-03-08 13:03:32 - Normalizing data...
-2025-03-08 13:03:32 - Data normalization complete.
-2025-03-08 13:03:32 - Preparing data for LSTM training...
-2025-03-08 13:03:32 - Data prepared for LSTM training.
-2025-03-08 13:03:32 - Training LSTM model...
-2025-03-08 13:03:32 - LSTM training completed.
-2025-03-08 13:03:32 - Initializing MultiAgentSystem...
-2025-03-08 13:03:32 - MultiAgentSystem initialized.
-2025-03-08 13:03:32 - Starting MARL training loop with window size 10...
-2025-03-08 13:03:32 - Processed 0 records...
-2025-03-08 13:03:32 - Printing final resource status...
-2025-03-08 13:03:32 - MARL training complete!
-2025-03-08 13:03:32 - Program execution finished.
+2025-03-08 13:30:13 - Program started.
+2025-03-08 13:30:13 - MLContext initialized.
+2025-03-08 13:30:13 - ResourceAllocator and LSTM initialized.
+2025-03-08 13:30:13 - Loading data from C:\Users\DELL\Downloads\Master\data\LSTMMARLAPe-x_Sol\LSTM_MARL_Ape-X_SOL\LSTM_MARL_Ape-X_SOL\bin\Debug\net6.0\Output\synthetic_cloud_dataset.csv...
+2025-03-08 13:30:13 - Loaded 100 records.
+2025-03-08 13:30:13 - Handling missing values...
+2025-03-08 13:30:13 - Missing values handled.
+2025-03-08 13:30:13 - Normalizing data...
+2025-03-08 13:30:13 - Data normalization complete.
+2025-03-08 13:30:13 - Preparing data for LSTM training...
+2025-03-08 13:30:13 - Data prepared for LSTM training.
+2025-03-08 13:30:13 - Training LSTM model...
+2025-03-08 13:30:13 - LSTM training completed.
+2025-03-08 13:30:13 - Initializing MultiAgentSystem...
+2025-03-08 13:30:13 - MultiAgentSystem initialized with 3 agents.
+2025-03-08 13:30:13 - MultiAgentSystem initialized.
+2025-03-08 13:30:13 - Starting MARL training loop with window size 10...
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -0.0008120093669299805, -5.271027279588053E-05, -1.369151672532022E-05, -9.396809554181085E-05, -5.255164973143128E-05, -9.071536731347406E-06, -1.1108324647272442E-05, -3.34481460873487E-06, -1.3605893184586486E-05, -6.0883909735017996E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.53|MEM:0.42
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.53|MEM:0.42
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.53|MEM:0.42
+2025-03-08 13:30:13 - Processed 0 records...
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -5.211678727061996E-05, -1.3691190377906512E-05, -9.396809304187891E-05, -5.255164972704723E-05, -9.071536731345704E-06, -1.1108324647272442E-05, -3.34481460873487E-06, -1.3605893184586486E-05, -6.0883909735017996E-05, -1.9539594781224988E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.56|MEM:0.43
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.56|MEM:0.43
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.56|MEM:0.43
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -1.365885242027419E-05, -9.396784409807189E-05, -5.255164929045275E-05, -9.071536731175492E-06, -1.1108324647272259E-05, -3.34481460873487E-06, -1.3605893184586486E-05, -6.0883909735017996E-05, -1.9539594781224988E-05, -8.445613951766762E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.57|MEM:0.46
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.57|MEM:0.46
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.57|MEM:0.46
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -9.385874609792266E-05, -5.2551457819204E-05, -9.071536656540417E-06, -1.1108324647191462E-05, -3.3448146087348453E-06, -1.3605893184586486E-05, -6.0883909735017996E-05, -1.9539594781224988E-05, -8.445613951766762E-07, -5.5176556570746855E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.52|MEM:0.49
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.52|MEM:0.49
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.52|MEM:0.49
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -5.238374933686366E-05, -9.07147121647935E-06, -1.1108324576342572E-05, -3.3448146087135505E-06, -1.3605893184586437E-05, -6.0883909735017996E-05, -1.9539594781224988E-05, -8.445613951766762E-07, -5.5176556570746855E-06, -5.300849469996767E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.56|MEM:0.49
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.56|MEM:0.49
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.56|MEM:0.49
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -9.050038422719755E-06, -1.1108301327013257E-05, -3.3448146017279724E-06, -1.360589318457095E-05, -6.088390973501791E-05, -1.9539594781224988E-05, -8.445613951766762E-07, -5.5176556570746855E-06, -5.300849469996767E-07, -5.153498475393215E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.58|MEM:0.55
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.58|MEM:0.55
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.58|MEM:0.55
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -1.1098110852124087E-05, -3.3448115378885833E-06, -1.3605893177771545E-05, -6.0883909734981716E-05, -1.9539594781224957E-05, -8.445613951766762E-07, -5.5176556570746855E-06, -5.300849469996767E-07, -5.153498475393215E-06, -0.0006662700335908026
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.52
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.52
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.52
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -3.3414198090960494E-06, -1.3605885648225426E-05, -6.088390969500563E-05, -1.9539594781192973E-05, -8.445613951766748E-07, -5.5176556570746855E-06, -5.300849469996767E-07, -5.153498475393215E-06, -0.0006662700335908026, -3.762644585890629E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.51
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.51
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.51
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -1.3598329172923188E-05, -6.088386956835709E-05, -1.9539594749041622E-05, -8.44561395174926E-07, -5.517655657074681E-06, -5.300849469996767E-07, -5.153498475393215E-06, -0.0006662700335908026, -3.762644585890629E-05, -7.668761278920785E-05
+2025-03-08 13:30:13 - Action Executed: ScaleDownCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleDownCPU, Reward: 1.5, Next State: CPU:0.57|MEM:0.44
+2025-03-08 13:30:13 - Action Executed: ScaleDownCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleDownCPU, Reward: 1.5, Next State: CPU:0.57|MEM:0.44
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.57|MEM:0.44
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -6.0810940740545415E-05, -1.953953630323074E-05, -8.445613919973565E-07, -5.517655657068979E-06, -5.300849469996765E-07, -5.153498475393215E-06, -0.0006662700335908026, -3.762644585890629E-05, -7.668761278920785E-05, -2.236271349338142E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.51|MEM:0.41
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.51|MEM:0.41
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.51|MEM:0.41
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -1.948992757816302E-05, -8.445586926503258E-07, -5.517655652231796E-06, -5.300849469993548E-07, -5.153498475393214E-06, -0.0006662700335908026, -3.762644585890629E-05, -7.668761278920785E-05, -2.236271349338142E-06, -2.006194460836287E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.58|MEM:0.40
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.58|MEM:0.40
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.58|MEM:0.40
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -8.434553490750684E-07, -5.517653672920763E-06, -5.300849468680594E-07, -5.153498475392938E-06, -0.0006662700335908026, -3.762644585890629E-05, -7.668761278920785E-05, -2.236271349338142E-06, -2.006194460836287E-05, -4.639001325045613E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.59|MEM:0.40
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.59|MEM:0.40
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.59|MEM:0.40
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -5.516101329246275E-06, -5.300848438810623E-07, -5.153498475173829E-06, -0.000666270033590782, -3.7626445858906275E-05, -7.668761278920785E-05, -2.236271349338142E-06, -2.006194460836287E-05, -4.639001325045613E-06, -2.2214378261932388E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.52|MEM:0.39
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.52|MEM:0.39
+2025-03-08 13:30:13 - Action Executed: ScaleUpMemory, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpMemory, Reward: 1.5, Next State: CPU:0.52|MEM:0.39
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -5.297170601522416E-07, -5.153497692632325E-06, -0.0006662700335161313, -3.762644585886579E-05, -7.66876127892077E-05, -2.236271349338142E-06, -2.006194460836287E-05, -4.639001325045613E-06, -2.2214378261932388E-05, -5.505553185860935E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.48|MEM:0.39
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.48|MEM:0.39
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.48|MEM:0.39
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -5.152355173787718E-06, -0.0006662699245193278, -3.762644579962798E-05, -7.668761278900212E-05, -2.236271349338119E-06, -2.006194460836287E-05, -4.639001325045613E-06, -2.2214378261932388E-05, -5.505553185860935E-05, -3.5469120710323764E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.44
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.44
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.44
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -0.0006657764249969934, -3.7626177580639906E-05, -7.668761185843818E-05, -2.2362713492625665E-06, -2.0061944608362585E-05, -4.639001325045613E-06, -2.2214378261932388E-05, -5.505553185860935E-05, -3.5469120710323764E-07, -2.4843394967875994E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.39|MEM:0.46
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.39|MEM:0.46
+2025-03-08 13:30:13 - Action Executed: ScaleDownMemory, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleDownMemory, Reward: 1.5, Next State: CPU:0.39|MEM:0.46
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -3.72617548883859E-05, -7.66863449945964E-05, -2.2362712463946608E-06, -2.0061944607959574E-05, -4.639001325045488E-06, -2.2214378261932388E-05, -5.505553185860935E-05, -3.5469120710323764E-07, -2.4843394967875994E-06, -8.531689028035013E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.47|MEM:0.51
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.47|MEM:0.51
+2025-03-08 13:30:13 - Action Executed: ScaleUpMemory, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpMemory, Reward: 1.5, Next State: CPU:0.47|MEM:0.51
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -7.654087758649513E-05, -2.2362593879878E-06, -2.006194456148941E-05, -4.639001325030478E-06, -2.2214378261932333E-05, -5.505553185860935E-05, -3.5469120710323764E-07, -2.4843394967875994E-06, -8.531689028035013E-07, -0.0003105086005271461
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.42|MEM:0.60
+2025-03-08 13:30:13 - Action Executed: ScaleUpMemory, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpMemory, Reward: 1.5, Next State: CPU:0.42|MEM:0.60
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.42|MEM:0.60
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.2298249997897748E-06, -2.0061919306403473E-05, -4.639001316873016E-06, -2.2214378261906408E-05, -5.505553185860925E-05, -3.5469120710323764E-07, -2.4843394967875994E-06, -8.531689028035013E-07, -0.0003105086005271461, -2.2552219835902666E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.39|MEM:0.65
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.39|MEM:0.65
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.39|MEM:0.65
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.0052756881997724E-05, -4.63899835626208E-06, -2.221437825251376E-05, -5.5055531858573744E-05, -3.546912071032372E-07, -2.4843394967875994E-06, -8.531689028035013E-07, -0.0003105086005271461, -2.2552219835902666E-06, -2.7829362532533904E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.47|MEM:0.70
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.47|MEM:0.70
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.47|MEM:0.70
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -4.632467336209158E-06, -2.221435752782136E-05, -5.5055531779813015E-05, -3.5469120710205603E-07, -2.484339496787599E-06, -8.531689028035013E-07, -0.0003105086005271461, -2.2552219835902666E-06, -2.7829362532533904E-05, -2.9004600150445085E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.39|MEM:0.73
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.39|MEM:0.73
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.39|MEM:0.73
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.2199299043165975E-05, -5.50554745364788E-05, -3.546912062433045E-07, -2.4843394967865914E-06, -8.531689028035012E-07, -0.0003105086005271461, -2.2552219835902666E-06, -2.7829362532533904E-05, -2.9004600150445085E-06, -4.006721510949125E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.35|MEM:0.77
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.35|MEM:0.77
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.35|MEM:0.77
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -5.497014341713634E-05, -3.5468992575115284E-07, -2.4843394952811432E-06, -8.531689028032576E-07, -0.0003105086005271461, -2.2552219835902666E-06, -2.7829362532533904E-05, -2.9004600150445085E-06, -4.006721510949125E-07, -2.9989058878515074E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.38|MEM:0.81
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.38|MEM:0.81
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.38|MEM:0.81
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -3.538461544934888E-07, -2.484338502258771E-06, -8.531689026437339E-07, -0.0003105086005271294, -2.2552219835902657E-06, -2.7829362532533904E-05, -2.9004600150445085E-06, -4.006721510949125E-07, -2.9989058878515074E-05, -0.00019217200657335913
+2025-03-08 13:30:13 - Action Executed: ScaleUpMemory, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpMemory, Reward: 1.5, Next State: CPU:0.38|MEM:0.75
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.38|MEM:0.75
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.38|MEM:0.75
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.483905030024289E-06, -8.531688329986777E-07, -0.0003105086005197523, -2.255221983589928E-06, -2.7829362532533904E-05, -2.9004600150445085E-06, -4.006721510949125E-07, -2.9989058878515074E-05, -0.00019217200657335913, -2.0167064203551798E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.39|MEM:0.75
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.39|MEM:0.75
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.39|MEM:0.75
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -8.527683872318221E-07, -0.0003105085581008136, -2.2552219816487964E-06, -2.7829362532523706E-05, -2.900460015044506E-06, -4.006721510949125E-07, -2.9989058878515074E-05, -0.00019217200657335913, -2.0167064203551798E-07, -5.516665168850985E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.42|MEM:0.73
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.42|MEM:0.73
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.42|MEM:0.73
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -0.0003104174072312839, -2.255217810335961E-06, -2.7829362510745367E-05, -2.900460015040812E-06, -4.0067215109491213E-07, -2.9989058878515074E-05, -0.00019217200657335913, -2.0167064203551798E-07, -5.516665168850985E-06, -0.00017286571633864519
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.40|MEM:0.68
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.40|MEM:0.68
+2025-03-08 13:30:13 - Action Executed: ScaleDownCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleDownCPU, Reward: 1.5, Next State: CPU:0.40|MEM:0.68
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.24096747233777E-06, -2.7829288047873796E-05, -2.9004600024141165E-06, -4.006721510940476E-07, -2.9989058878515057E-05, -0.00019217200657335913, -2.0167064203551798E-07, -5.516665168850985E-06, -0.00017286571633864519, -1.08076388335534E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.42|MEM:0.67
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.42|MEM:0.67
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.42|MEM:0.67
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.7816522647417874E-05, -2.9004578362235192E-06, -4.0067215094572427E-07, -2.998905887851288E-05, -0.00019217200657335913, -2.0167064203551798E-07, -5.516665168850985E-06, -0.00017286571633864519, -1.08076388335534E-05, -5.161090823457513E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.45|MEM:0.60
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.45|MEM:0.60
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.45|MEM:0.60
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.8957005702871635E-06, -4.0067182511619445E-07, -2.9989058873690998E-05, -0.00019217200657330264, -2.0167064203551774E-07, -5.516665168850985E-06, -0.00017286571633864519, -1.08076388335534E-05, -5.161090823457513E-05, -2.9169485654233237E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.57
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.57
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.57
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -4.0046768492791665E-07, -2.9989055851758077E-05, -0.00019217200653792437, -2.0167064203534788E-07, -5.5166651688509826E-06, -0.00017286571633864519, -1.08076388335534E-05, -5.161090823457513E-05, -2.9169485654233237E-05, -2.1375617415381955E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.40|MEM:0.55
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.40|MEM:0.55
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.40|MEM:0.55
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.9983069774919628E-05, -0.00019217193645583853, -2.0167064169916336E-07, -5.5166651688498425E-06, -0.00017286571633864519, -1.08076388335534E-05, -5.161090823457513E-05, -2.9169485654233237E-05, -2.1375617415381955E-06, -2.629086567461971E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.44|MEM:0.48
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.44|MEM:0.48
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.44|MEM:0.48
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -0.0001918198032665688, -2.0166895231078704E-07, -5.516665163130451E-06, -0.00017286571633851562, -1.0807638833553367E-05, -5.161090823457513E-05, -2.9169485654233237E-05, -2.1375617415381955E-06, -2.629086567461971E-05, -1.0160422482576088E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.44
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.44
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.44
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.0072661947710874E-07, -5.516661966023929E-06, -0.00017286571626602543, -1.0807638833533512E-05, -5.1610908234575054E-05, -2.9169485654233237E-05, -2.1375617415381955E-06, -2.629086567461971E-05, -1.0160422482576088E-05, -2.6683520595029896E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.45|MEM:0.45
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.45|MEM:0.45
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.45|MEM:0.45
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -5.5159297378437945E-06, -0.00017286569966059313, -1.080763882899082E-05, -5.161090823455316E-05, -2.916948565423322E-05, -2.1375617415381955E-06, -2.629086567461971E-05, -1.0160422482576088E-05, -2.6683520595029896E-05, -2.0802111535179376E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.48|MEM:0.40
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.48|MEM:0.40
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.48|MEM:0.40
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -0.00017274029576721077, -1.0807604521196483E-05, -5.161090806948388E-05, -2.9169485654017345E-05, -2.13756174153817E-06, -2.629086567461971E-05, -1.0160422482576088E-05, -2.6683520595029896E-05, -2.0802111535179376E-05, -0.00023004430247982677
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.33
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.33
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.33
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -1.0759835436570255E-05, -5.161067799256016E-05, -2.9169485352983893E-05, -2.1375617415011294E-06, -2.629086567461951E-05, -1.0160422482576088E-05, -2.6683520595029896E-05, -2.0802111535179376E-05, -0.00023004430247982677, -0.0004766301441744574
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.38|MEM:0.29
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.38|MEM:0.29
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.38|MEM:0.29
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -5.155527699806691E-05, -2.9169412784209173E-05, -2.137561732573643E-06, -2.6290865674570622E-05, -1.0160422482576063E-05, -2.6683520595029896E-05, -2.0802111535179376E-05, -0.00023004430247982677, -0.0004766301441744574, -3.956876570496063E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.33|MEM:0.29
+2025-03-08 13:30:13 - Action Executed: ScaleDownCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleDownCPU, Reward: 1.5, Next State: CPU:0.33|MEM:0.29
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.33|MEM:0.29
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.9100805069857732E-05, -2.1375532867326126E-06, -2.6290865628318964E-05, -1.0160422482546793E-05, -2.6683520595029828E-05, -2.0802111535179376E-05, -0.00023004430247982677, -0.0004766301441744574, -3.956876570496063E-07, -5.716650675326211E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.29|MEM:0.32
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.29|MEM:0.32
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.29|MEM:0.32
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.1338399652629794E-06, -2.6290845270578738E-05, -1.0160422469669825E-05, -2.66835205949972E-05, -2.080211153517934E-05, -0.00023004430247982677, -0.0004766301441744574, -3.956876570496063E-07, -5.716650675326211E-05, -2.8712047535314284E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.33|MEM:0.33
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.33|MEM:0.33
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.33|MEM:0.33
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.62788070689236E-05, -1.016041485339011E-05, -2.668352057573561E-05, -2.080211153515567E-05, -0.00023004430247982642, -0.0004766301441744574, -3.956876570496063E-07, -5.716650675326211E-05, -2.8712047535314284E-06, -4.104393139150849E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.31
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.31
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.31
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -1.0143664080333937E-05, -2.6683478202626283E-05, -2.0802111483084237E-05, -0.0002300443024789704, -0.0004766301441744478, -3.956876570496063E-07, -5.716650675326211E-05, -2.8712047535314284E-06, -4.104393139150849E-06, -1.196264533028546E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.46|MEM:0.35
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.46|MEM:0.35
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.46|MEM:0.35
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.665712569104924E-05, -2.0802079083750763E-05, -0.00023004430194640735, -0.0004766301441683885, -3.956876570495682E-07, -5.716650675326211E-05, -2.8712047535314284E-06, -4.104393139150849E-06, -1.196264533028546E-07, -6.149435290014368E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.48|MEM:0.33
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.48|MEM:0.33
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.48|MEM:0.33
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.0768755902627088E-05, -0.00023004375391701468, -0.0004766301379323818, -3.956876570107644E-07, -5.716650675326114E-05, -2.8712047535314263E-06, -4.104393139150849E-06, -1.196264533028546E-07, -6.149435290014368E-06, -7.78312504887502E-08
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.46|MEM:0.39
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.46|MEM:0.39
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.46|MEM:0.39
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -0.0002296926838391757, -0.0004766261407309578, -3.956876321374238E-07, -5.7166506752633265E-05, -2.871204753531357E-06, -4.104393139150849E-06, -1.196264533028546E-07, -6.149435290014368E-06, -7.78312504887502E-08, -9.01167201120776E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.46|MEM:0.43
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.46|MEM:0.43
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.46|MEM:0.43
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -0.00047395953908135256, -3.956710143416062E-07, -5.716650633295833E-05, -2.871204753480309E-06, -4.104393139150812E-06, -1.196264533028546E-07, -6.149435290014368E-06, -7.78312504887502E-08, -9.01167201120776E-06, -2.1392415336078922E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.49|MEM:0.52
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.49|MEM:0.52
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.49|MEM:0.52
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -3.925481379016091E-07, -5.7166426880636885E-05, -2.8712047438181255E-06, -4.104393139144052E-06, -1.1962645330285456E-07, -6.149435290014368E-06, -7.78312504887502E-08, -9.01167201120776E-06, -2.1392415336078922E-06, -1.2821796058571885E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.49|MEM:0.55
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.49|MEM:0.55
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.49|MEM:0.55
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -5.7155303976222554E-05, -2.8712033906716827E-06, -4.104393138197655E-06, -1.1962645330283886E-07, -6.1494352900143655E-06, -7.78312504887502E-08, -9.01167201120776E-06, -2.1392415336078922E-06, -1.2821796058571885E-06, -9.993326807405421E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.48|MEM:0.50
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.48|MEM:0.50
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.48|MEM:0.50
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.8642294135818522E-06, -4.104388259440984E-06, -1.196264532220365E-07, -6.149435290013928E-06, -7.78312504887502E-08, -9.01167201120776E-06, -2.1392415336078922E-06, -1.2821796058571885E-06, -9.993326807405421E-06, -1.2495439395546743E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.50|MEM:0.46
+2025-03-08 13:30:13 - Action Executed: ScaleDownMemory, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleDownMemory, Reward: 1.5, Next State: CPU:0.50|MEM:0.46
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.50|MEM:0.46
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -4.102302129115969E-06, -1.1962641865775282E-07, -6.149435289824626E-06, -7.783125048874836E-08, -9.01167201120776E-06, -2.1392415336078922E-06, -1.2821796058571885E-06, -9.993326807405421E-06, -1.2495439395546743E-05, -1.043852149981724E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.47|MEM:0.46
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.47|MEM:0.46
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.47|MEM:0.46
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -1.1955780432577784E-07, -6.149434913987191E-06, -7.783125048527576E-08, -9.01167201120773E-06, -2.1392415336078922E-06, -1.2821796058571885E-06, -9.993326807405421E-06, -1.2495439395546743E-05, -1.043852149981724E-05, -7.58677725448356E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.52
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.52
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.52
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -6.148771940998163E-06, -7.783124435909746E-08, -9.011672011148243E-06, -2.1392415336078795E-06, -1.2821796058571885E-06, -9.993326807405421E-06, -1.2495439395546743E-05, -1.043852149981724E-05, -7.58677725448356E-05, -5.9129879879215355E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.34|MEM:0.53
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.34|MEM:0.53
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.34|MEM:0.53
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -7.777432308687126E-08, -9.01167145844537E-06, -2.1392415334856302E-06, -1.2821796058571567E-06, -9.993326807405421E-06, -1.2495439395546743E-05, -1.043852149981724E-05, -7.58677725448356E-05, -5.9129879879215355E-05, -1.3505782846339546E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.40|MEM:0.59
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.40|MEM:0.59
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.40|MEM:0.59
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -9.010905274050663E-06, -2.13924136401752E-06, -1.2821796058127626E-06, -9.993326807405301E-06, -1.2495439395546743E-05, -1.043852149981724E-05, -7.58677725448356E-05, -5.9129879879215355E-05, -1.3505782846339546E-06, -3.3153135252014884E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.44|MEM:0.53
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.44|MEM:0.53
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.44|MEM:0.53
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.1372453302919464E-06, -1.2821790828970948E-06, -9.993326805928702E-06, -1.2495439395544895E-05, -1.043852149981724E-05, -7.58677725448356E-05, -5.9129879879215355E-05, -1.3505782846339546E-06, -3.3153135252014884E-07, -1.2544178637645883E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.39|MEM:0.53
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.39|MEM:0.53
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.39|MEM:0.53
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -1.281609919616668E-06, -9.993325198529081E-06, -1.2495439393539077E-05, -1.043852149981547E-05, -7.58677725448356E-05, -5.9129879879215355E-05, -1.3505782846339546E-06, -3.3153135252014884E-07, -1.2544178637645883E-05, -4.15513699772174E-08
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.42|MEM:0.53
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.42|MEM:0.53
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.42|MEM:0.53
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -9.989676034386854E-06, -1.249543483965835E-05, -1.043852149584767E-05, -7.586777254480581E-05, -5.912987987921529E-05, -1.3505782846339546E-06, -3.3153135252014884E-07, -1.2544178637645883E-05, -4.15513699772174E-08, -1.2977131969506737E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.43|MEM:0.57
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.43|MEM:0.57
+2025-03-08 13:30:13 - Action Executed: ScaleDownMemory, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleDownMemory, Reward: 1.5, Next State: CPU:0.43|MEM:0.57
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -1.2482896138996183E-05, -1.0438510569653283E-05, -7.586777246259717E-05, -5.912987987903218E-05, -1.3505782846339402E-06, -3.3153135252014884E-07, -1.2544178637645883E-05, -4.15513699772174E-08, -1.2977131969506737E-06, -3.7035739120886177E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.50|MEM:0.64
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.50|MEM:0.64
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.50|MEM:0.64
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -1.0427452641020008E-05, -7.586768923366016E-05, -5.9129879693940064E-05, -1.3505782846238057E-06, -3.3153135252014794E-07, -1.2544178637645883E-05, -4.15513699772174E-08, -1.2977131969506737E-06, -3.7035739120886177E-06, -2.4502818099548836E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.47|MEM:0.64
+2025-03-08 13:30:13 - Action Executed: ScaleDownMemory, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleDownMemory, Reward: 1.5, Next State: CPU:0.47|MEM:0.64
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.47|MEM:0.64
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -7.578764847086872E-05, -5.912970163379204E-05, -1.3505782748757882E-06, -3.315313525193669E-07, -1.254417863764588E-05, -4.15513699772174E-08, -1.2977131969506737E-06, -3.7035739120886177E-06, -2.4502818099548836E-06, -7.15119797436457E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.46|MEM:0.62
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.46|MEM:0.62
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.46|MEM:0.62
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -5.895851135471616E-05, -1.350568895628536E-06, -3.3153135176804615E-07, -1.25441786376408E-05, -4.155136997721739E-08, -1.2977131969506737E-06, -3.7035739120886177E-06, -2.4502818099548836E-06, -7.15119797436457E-07, -2.464500361693872E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.45|MEM:0.53
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.45|MEM:0.53
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.45|MEM:0.53
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -1.3472007205971022E-06, -3.31531081453931E-07, -1.254417863581741E-05, -4.155136997721113E-08, -1.2977131969506737E-06, -3.7035739120886177E-06, -2.4502818099548836E-06, -7.15119797436457E-07, -2.464500361693872E-05, -6.140411645945029E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.43|MEM:0.51
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.43|MEM:0.51
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.43|MEM:0.51
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -3.314184644717336E-07, -1.2544177875934345E-05, -4.1551369974618616E-08, -1.2977131969506684E-06, -3.7035739120886177E-06, -2.4502818099548836E-06, -7.15119797436457E-07, -2.464500361693872E-05, -6.140411645945029E-06, -7.669978535890281E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.36|MEM:0.46
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.36|MEM:0.46
+2025-03-08 13:30:13 - Action Executed: ScaleUpMemory, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpMemory, Reward: 1.5, Next State: CPU:0.36|MEM:0.46
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -1.2541926435210663E-05, -4.1551362292927666E-08, -1.297713196936002E-06, -3.7035739120886037E-06, -2.4502818099548836E-06, -7.15119797436457E-07, -2.464500361693872E-05, -6.140411645945029E-06, -7.669978535890281E-05, -3.2197874422260066E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.32|MEM:0.47
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.32|MEM:0.47
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.32|MEM:0.47
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -4.150844229833224E-08, -1.2977131149630189E-06, -3.7035739120106195E-06, -2.450281809954852E-06, -7.15119797436457E-07, -2.464500361693872E-05, -6.140411645945029E-06, -7.669978535890281E-05, -3.2197874422260066E-06, -0.00013379820952203324
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.40|MEM:0.43
+2025-03-08 13:30:13 - Action Executed: ScaleDownCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleDownCPU, Reward: 1.5, Next State: CPU:0.40|MEM:0.43
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.40|MEM:0.43
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -1.2976321579743504E-06, -3.703573834980613E-06, -2.4502818099233845E-06, -7.151197974364527E-07, -2.464500361693872E-05, -6.140411645945029E-06, -7.669978535890281E-05, -3.2197874422260066E-06, -0.00013379820952203324, -8.05151536797022E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.37|MEM:0.33
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.37|MEM:0.33
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.37|MEM:0.33
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -3.7023377629180627E-06, -2.450281304946918E-06, -7.151197973672412E-07, -2.464500361693811E-05, -6.140411645945029E-06, -7.669978535890281E-05, -3.2197874422260066E-06, -0.00013379820952203324, -8.05151536797022E-05, -7.277314035173959E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.38|MEM:0.33
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.38|MEM:0.33
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.38|MEM:0.33
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.448758867536102E-06, -7.151195886895095E-07, -2.4645003615086043E-05, -6.140411645944302E-06, -7.669978535890281E-05, -3.2197874422260066E-06, -0.00013379820952203324, -8.05151536797022E-05, -7.277314035173959E-05, -2.831174559604513E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.36|MEM:0.28
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.36|MEM:0.28
+2025-03-08 13:30:13 - Action Executed: ScaleUpMemory, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpMemory, Reward: 1.5, Next State: CPU:0.36|MEM:0.28
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -7.147805462581517E-07, -2.4645000605741486E-05, -6.140411644792395E-06, -7.669978535889141E-05, -3.2197874422260037E-06, -0.00013379820952203324, -8.05151536797022E-05, -7.277314035173959E-05, -2.831174559604513E-06, -1.4827000304304141E-08
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.44|MEM:0.34
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.44|MEM:0.34
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.44|MEM:0.34
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.463860013498007E-05, -6.140409194712793E-06, -7.669978533492097E-05, -3.219787442223191E-06, -0.00013379820952203318, -8.05151536797022E-05, -7.277314035173959E-05, -2.831174559604513E-06, -1.4827000304304141E-08, -0.0006106384957580896
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.34
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.34
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.34
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -6.130936227862915E-06, -7.669969264123592E-05, -3.2197874313451874E-06, -0.00013379820952179132, -8.051515367970168E-05, -7.277314035173956E-05, -2.831174559604513E-06, -1.4827000304304141E-08, -0.0006106384957580896, -1.247266240682701E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.39
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.39
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.41|MEM:0.39
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -7.663806098627826E-05, -3.2197801961735835E-06, -0.00013379820936103924, -8.051515367931649E-05, -7.277314035173859E-05, -2.831174559604513E-06, -1.4827000304304141E-08, -0.0006106384957580896, -1.247266240682701E-06, -6.194407664476285E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.44|MEM:0.43
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.44|MEM:0.43
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.44|MEM:0.43
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -3.210677926632732E-06, -0.0001337980069855619, -8.051515319423864E-05, -7.277314035052159E-05, -2.831174559604387E-06, -1.4827000304304141E-08, -0.0006106384957580896, -1.247266240682701E-06, -6.194407664476285E-07, -7.074345597405527E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.54|MEM:0.44
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.54|MEM:0.44
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.54|MEM:0.44
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -0.0001337232197099246, -8.051497385932173E-05, -7.277313990053731E-05, -2.831174559557791E-06, -1.4827000304304027E-08, -0.0006106384957580896, -1.247266240682701E-06, -6.194407664476285E-07, -7.074345597405527E-07, -3.21312263365842E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.60|MEM:0.42
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.60|MEM:0.42
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.60|MEM:0.42
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -8.019164190949028E-05, -7.277232806202152E-05, -2.8311744754909013E-06, -1.4827000304103568E-08, -0.0006106384957580891, -1.247266240682701E-06, -6.194407664476285E-07, -7.074345597405527E-07, -3.21312263365842E-05, -7.06138523822399E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.56|MEM:0.42
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.56|MEM:0.42
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.56|MEM:0.42
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -7.256008662330159E-05, -2.8311524415222427E-06, -1.4827000251556602E-08, -0.0006106384957580046, -1.2472662406827001E-06, -6.194407664476285E-07, -7.074345597405527E-07, -3.21312263365842E-05, -7.06138523822399E-05, -4.1985047078089195E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.43
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.43
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.43
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.823284589047185E-06, -1.4826981447514128E-08, -0.0006106384957277051, -1.2472662406821218E-06, -6.194407664476285E-07, -7.074345597405527E-07, -3.21312263365842E-05, -7.06138523822399E-05, -4.1985047078089195E-05, -2.0921889421056394E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.43
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.43
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.43
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -1.4819924834467222E-08, -0.0006106384843513485, -1.2472662404650273E-06, -6.19440766447595E-07, -7.074345597405527E-07, -3.21312263365842E-05, -7.06138523822399E-05, -4.1985047078089195E-05, -2.0921889421056394E-06, -0.00013393826372980747
+2025-03-08 13:30:13 - Action Executed: ScaleUpMemory, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpMemory, Reward: 1.5, Next State: CPU:0.51|MEM:0.40
+2025-03-08 13:30:13 - Action Executed: ScaleDownMemory, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleDownMemory, Reward: 1.5, Next State: CPU:0.51|MEM:0.40
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.51|MEM:0.40
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -0.0006106143473726097, -1.2472657798542196E-06, -6.194407663787531E-07, -7.074345597405348E-07, -3.21312263365842E-05, -7.06138523822399E-05, -4.1985047078089195E-05, -2.0921889421056394E-06, -0.00013393826372980747, -4.580961921094515E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.50|MEM:0.42
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.50|MEM:0.42
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.50|MEM:0.42
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -1.2356293619650225E-06, -6.194390256407574E-07, -7.074345592827258E-07, -3.213122633657898E-05, -7.061385238223989E-05, -4.1985047078089195E-05, -2.0921889421056394E-06, -0.00013393826372980747, -4.580961921094515E-05, -8.91105245553602E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.45
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.45
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.45
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -6.192311938623608E-07, -7.074345045805144E-07, -3.2131226335950566E-05, -7.061385238223734E-05, -4.1985047078089195E-05, -2.0921889421056394E-06, -0.00013393826372980747, -4.580961921094515E-05, -8.91105245553602E-06, -2.3476958764902015E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.62|MEM:0.45
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.62|MEM:0.45
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.62|MEM:0.45
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -7.072704955986116E-07, -3.213122445198797E-05, -7.06138523745491E-05, -4.198504707807629E-05, -2.0921889421056385E-06, -0.00013393826372980747, -4.580961921094515E-05, -8.91105245553602E-06, -2.3476958764902015E-06, -1.4661431838258737E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.64|MEM:0.43
+2025-03-08 13:30:13 - Action Executed: ScaleDownCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleDownCPU, Reward: 1.5, Next State: CPU:0.64|MEM:0.43
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 1.5, Next State: CPU:0.64|MEM:0.43
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -3.21230631133571E-05, -7.061381906915902E-05, -4.198504702295192E-05, -2.092188942100305E-06, -0.0001339382637298073, -4.580961921094515E-05, -8.91105245553602E-06, -2.3476958764902015E-06, -1.4661431838258737E-07, -5.1811573345451835E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.54|MEM:0.49
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.54|MEM:0.49
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.54|MEM:0.49
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -7.048215272850405E-05, -4.198482906170551E-05, -2.09218892102268E-06, -0.00013393826372919552, -4.580961921094435E-05, -8.91105245553602E-06, -2.3476958764902015E-06, -1.4661431838258737E-07, -5.1811573345451835E-06, -2.8163508410916754E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.57
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.57
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.55|MEM:0.57
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -4.1864946681281975E-05, -2.0921773136304113E-06, -0.00013393826339222823, -4.580961921050585E-05, -8.91105245553586E-06, -2.3476958764902015E-06, -1.4661431838258737E-07, -5.1811573345451835E-06, -2.8163508410916754E-06, -3.6498792005585014E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.54|MEM:0.61
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.54|MEM:0.61
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.54|MEM:0.61
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.0879589504592275E-06, -0.00013393814074161625, -4.5809619050852614E-05, -8.911052455472535E-06, -2.347695876490188E-06, -1.4661431838258732E-07, -5.1811573345451835E-06, -2.8163508410916754E-06, -3.6498792005585014E-07, -9.332583136732368E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpMemory, Allocation Success: True, SLA Reward: 1, Total Reward: 1.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpMemory, Reward: 1.5, Next State: CPU:0.51|MEM:0.70
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.51|MEM:0.70
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.51|MEM:0.70
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -0.00013387523002365967, -4.580953714031252E-05, -8.911052423001366E-06, -2.347695876482948E-06, -1.4661431838258713E-07, -5.1811573345451835E-06, -2.8163508410916754E-06, -3.6498792005585014E-07, -9.332583136732368E-07, -4.387342630047344E-06
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.53|MEM:0.72
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.53|MEM:0.72
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.53|MEM:0.72
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -4.563413274155065E-05, -8.910982847902002E-06, -2.3476958609773433E-06, -1.466143183821608E-07, -5.181157334545183E-06, -2.8163508410916754E-06, -3.6498792005585014E-07, -9.332583136732368E-07, -4.387342630047344E-06, -2.167256818266914E-05
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.54|MEM:0.73
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.54|MEM:0.73
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.54|MEM:0.73
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -8.891822067969014E-06, -2.3476915813447067E-06, -1.4661431826451093E-07, -5.181157334544691E-06, -2.8163508410916754E-06, -3.6498792005585014E-07, -9.332583136732368E-07, -4.387342630047344E-06, -2.167256818266914E-05, -1.3124885651918566E-07
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.54|MEM:0.73
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.54|MEM:0.73
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.54|MEM:0.73
+2025-03-08 13:30:13 - Executing decision step.
+2025-03-08 13:30:13 - Predicted workload: -2.34563344597474E-06, -1.4661426164833216E-07, -5.181157334307454E-06, -2.81635084109159E-06, -3.6498792005585014E-07, -9.332583136732368E-07, -4.387342630047344E-06, -2.167256818266914E-05, -1.3124885651918566E-07, -0.0002673273547632892
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.47|MEM:0.70
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.47|MEM:0.70
+2025-03-08 13:30:13 - Action Executed: ScaleUpCPU, Allocation Success: False, SLA Reward: 1, Total Reward: 0.5
+2025-03-08 13:30:13 - Agent chose action: ScaleUpCPU, Reward: 0.5, Next State: CPU:0.47|MEM:0.70
+2025-03-08 13:30:13 - Printing final resource status...
+2025-03-08 13:30:13 - MARL training complete!
+2025-03-08 13:30:13 - Program execution finished.

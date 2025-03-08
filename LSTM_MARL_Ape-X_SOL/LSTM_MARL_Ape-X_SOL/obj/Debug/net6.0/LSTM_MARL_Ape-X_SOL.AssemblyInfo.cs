@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LSTM_MARL_Ape-X_SOL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe543e0c9ff7a39c3b09c57acb7b68d80e57ce3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e6366dda7c3ba0b4f0e44cb4ea3d39b0ec31afd")]
 [assembly: System.Reflection.AssemblyProductAttribute("LSTM_MARL_Ape-X_SOL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LSTM_MARL_Ape-X_SOL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
