@@ -1,0 +1,32 @@
+training:
+  epochs: 1000
+  batch_size: 1024
+  lr: 3e-4
+  gamma: 0.95
+  
+temporal_model:
+  lstm_dim: 128
+  mamba_dim: 64
+  num_layers: 4
+  
+replay_buffer:
+  capacity: 60000000  # 60GB
+  alpha: 0.6
+  beta_init: 0.5
+
+training:
+  epochs: 1000
+  batch_size: 1024
+  lr_temporal: 3e-4
+  lr_leaf: 1e-3
+  lr_rack: 5e-4
+  lr_cluster: 1e-4
+  gamma: 0.95
+  alpha: 0.6
+  beta_init: 0.5
+  replay_capacity: 60000000  # 60GB
+  num_actors: 64
+  checkpoint_freq: 50
+  master_address: "192.168.1.100"
+  master_port: 29500
+  ray_address: "auto"

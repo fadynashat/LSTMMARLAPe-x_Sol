@@ -1,0 +1,8 @@
+echo "torch>=2.0.0
+ray[rllib]>=2.5.0
+numpy>=1.21.0
+tensorboard>=2.10.0
+mamba-ssm>=1.0.0
+zstandard>=0.18.0
+pyyaml>=6.0
+" > requirements.txt
