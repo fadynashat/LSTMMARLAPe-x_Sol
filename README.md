@@ -25,6 +25,12 @@ A hybrid AI framework combining multi-scale temporal modeling with hierarchical 
 git clone https://github.com/fadynashat/LSTMMARLAPe-x_Sol.git
 cd LSTMMARLAPe-x_Sol
 
+#install conda
+from url  https://www.anaconda.com/docs/main
+direct link for windows 
+https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Windows-x86_64.exe
+
+
 # Create conda environment
 conda create -n marl python=3.9
 conda activate marl
@@ -38,30 +44,26 @@ conda install -c conda-forge mpi4py openmpi
 
 #Dataset Preparation
 #Google Cluster Trace:
-wget https://github.com/google/cluster-data/archive/refs/tags/v2024.1.tar.gz
-tar -xzf v2024.1.tar.gz
-python scripts/preprocess_google_trace.py --input cluster-data-2024.1 --output data/google_processed
+cd data
+python get_google_data.py
 #Azure VM Workloads:
-azcopy copy 'https://azurecloud.blob.core.windows.net/vm-traces' ./data/azure --recursive
-python scripts/preprocess_azure.py --input data/azure --output data/azure_processed
+cd data
+python get_azure_data.py
+
+#bitbrains VM Workloads:
+cd data
+python get_bitbrains_data.py
 
 Training
 Single Node (8 GPUs)
 
-torchrun --nnodes=1 --nproc_per_node=8 \
-    scripts/train.py \
-    --config configs/default.yaml \
-    --dataset data/google_processed \
-    --log-dir logs/
+torchrun --nnodes=1 --nproc_per_node=8  scripts/train.py  --config configs/default.yaml  --dataset data/google_processed  --log-dir logs/
+
 Multi-Node Cluster
 
 
 # On each node
-mpirun -np 8 --hostfile hostfile \
-    python scripts/train.py \
-    --config configs/cluster.yaml \
-    --dataset /shared/storage/google_processed \
-    --log-dir /shared/logs/
+mpirun -np 8 --hostfile hostfile python scripts/train.py --config configs/cluster.yaml -dataset /shared/storage/google_processed --log-dir /shared/logs/
 Key Training Parameters:
 
 
@@ -81,8 +83,8 @@ replay_buffer:
   capacity: 60000000   # 60GB
   compression: zstd    # 3.8:1 compression ratio
 Evaluation
-bash
-Copy
+
+
 python scripts/evaluate.py \
     --checkpoint checkpoints/best_model.pt \
     --dataset data/azure_processed \
